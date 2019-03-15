@@ -16,7 +16,7 @@ Ingredient.create(name: 'ice')
 Ingredient.create(name: 'mint leaves')
 
 5.times do
-  cocktail = Cocktail.create!(
+  Cocktail.create!(
     name: Faker::Movies::StarWars.planet
   )
 end
