@@ -11,8 +11,5 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require activestorage
 //= require turbolinks
 //= require_tree .
-<%= javascript_include_tag "application" %>
-<%= javascript_pack_tag "application" %>
